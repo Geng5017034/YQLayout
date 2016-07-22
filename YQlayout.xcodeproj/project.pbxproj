@@ -14,13 +14,6 @@
 		ED36AF581D3F17CB0017D49C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED36AF561D3F17CB0017D49C /* Main.storyboard */; };
 		ED36AF5A1D3F17CB0017D49C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED36AF591D3F17CB0017D49C /* Assets.xcassets */; };
 		ED36AF5D1D3F17CB0017D49C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED36AF5B1D3F17CB0017D49C /* LaunchScreen.storyboard */; };
-		ED36AF711D3F1A930017D49C /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED36AF691D3F1A930017D49C /* LICENSE.txt */; };
-		ED36AF721D3F1A930017D49C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = ED36AF6A1D3F1A930017D49C /* README.md */; };
-		ED36AF731D3F1A930017D49C /* Neon.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED36AF6C1D3F1A930017D49C /* Neon.swift */; };
-		ED36AF741D3F1A930017D49C /* NeonAlignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED36AF6D1D3F1A930017D49C /* NeonAlignable.swift */; };
-		ED36AF751D3F1A930017D49C /* NeonAnchorable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED36AF6E1D3F1A930017D49C /* NeonAnchorable.swift */; };
-		ED36AF761D3F1A930017D49C /* NeonFrameable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED36AF6F1D3F1A930017D49C /* NeonFrameable.swift */; };
-		ED36AF771D3F1A930017D49C /* NeonGroupable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED36AF701D3F1A930017D49C /* NeonGroupable.swift */; };
 		ED36AF7B1D3F26940017D49C /* UIView+YQConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = ED36AF7A1D3F26940017D49C /* UIView+YQConstants.m */; };
 		ED36AF7E1D3F28CD0017D49C /* CALayer+YQConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = ED36AF7D1D3F28CD0017D49C /* CALayer+YQConstants.m */; };
 		ED3EDDCE1D3F6FB600982BCE /* UIView+Frameable.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3EDDCD1D3F6FB600982BCE /* UIView+Frameable.m */; };
@@ -42,13 +35,6 @@
 		ED36AF5C1D3F17CB0017D49C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED36AF5E1D3F17CB0017D49C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED36AF651D3F185E0017D49C /* YQLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQLayout.h; sourceTree = "<group>"; };
-		ED36AF691D3F1A930017D49C /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
-		ED36AF6A1D3F1A930017D49C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		ED36AF6C1D3F1A930017D49C /* Neon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Neon.swift; sourceTree = "<group>"; };
-		ED36AF6D1D3F1A930017D49C /* NeonAlignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeonAlignable.swift; sourceTree = "<group>"; };
-		ED36AF6E1D3F1A930017D49C /* NeonAnchorable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeonAnchorable.swift; sourceTree = "<group>"; };
-		ED36AF6F1D3F1A930017D49C /* NeonFrameable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeonFrameable.swift; sourceTree = "<group>"; };
-		ED36AF701D3F1A930017D49C /* NeonGroupable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeonGroupable.swift; sourceTree = "<group>"; };
 		ED36AF791D3F26940017D49C /* UIView+YQConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YQConstants.h"; sourceTree = "<group>"; };
 		ED36AF7A1D3F26940017D49C /* UIView+YQConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YQConstants.m"; sourceTree = "<group>"; };
 		ED36AF7C1D3F28CD0017D49C /* CALayer+YQConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+YQConstants.h"; sourceTree = "<group>"; };
@@ -92,7 +78,6 @@
 		ED36AF4C1D3F17CB0017D49C /* YQlayout */ = {
 			isa = PBXGroup;
 			children = (
-				ED36AF681D3F1A930017D49C /* Neon */,
 				ED36AF641D3F18310017D49C /* YQLayout */,
 				ED36AF501D3F17CB0017D49C /* AppDelegate.h */,
 				ED36AF511D3F17CB0017D49C /* AppDelegate.m */,
@@ -134,28 +119,6 @@
 				ED75E6CA1D40B9DD00C4CB9A /* UIView+Groupable.m */,
 			);
 			path = YQLayout;
-			sourceTree = "<group>";
-		};
-		ED36AF681D3F1A930017D49C /* Neon */ = {
-			isa = PBXGroup;
-			children = (
-				ED36AF691D3F1A930017D49C /* LICENSE.txt */,
-				ED36AF6A1D3F1A930017D49C /* README.md */,
-				ED36AF6B1D3F1A930017D49C /* Source */,
-			);
-			path = Neon;
-			sourceTree = "<group>";
-		};
-		ED36AF6B1D3F1A930017D49C /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				ED36AF6C1D3F1A930017D49C /* Neon.swift */,
-				ED36AF6D1D3F1A930017D49C /* NeonAlignable.swift */,
-				ED36AF6E1D3F1A930017D49C /* NeonAnchorable.swift */,
-				ED36AF6F1D3F1A930017D49C /* NeonFrameable.swift */,
-				ED36AF701D3F1A930017D49C /* NeonGroupable.swift */,
-			);
-			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,7 +178,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED36AF711D3F1A930017D49C /* LICENSE.txt in Resources */,
 				ED36AF5D1D3F17CB0017D49C /* LaunchScreen.storyboard in Resources */,
 				ED36AF5A1D3F17CB0017D49C /* Assets.xcassets in Resources */,
 				ED36AF581D3F17CB0017D49C /* Main.storyboard in Resources */,
@@ -232,18 +194,12 @@
 				ED2E51001D4073B4007202FF /* UIView+Alignable.m in Sources */,
 				ED36AF551D3F17CB0017D49C /* ViewController.m in Sources */,
 				ED75E6CB1D40B9DD00C4CB9A /* UIView+Groupable.m in Sources */,
-				ED36AF741D3F1A930017D49C /* NeonAlignable.swift in Sources */,
 				ED3EDDD11D3F787600982BCE /* UIView+Anchorable.m in Sources */,
 				ED36AF521D3F17CB0017D49C /* AppDelegate.m in Sources */,
-				ED36AF721D3F1A930017D49C /* README.md in Sources */,
 				ED3EDDCE1D3F6FB600982BCE /* UIView+Frameable.m in Sources */,
 				ED36AF7E1D3F28CD0017D49C /* CALayer+YQConstants.m in Sources */,
 				ED36AF4F1D3F17CB0017D49C /* main.m in Sources */,
-				ED36AF761D3F1A930017D49C /* NeonFrameable.swift in Sources */,
-				ED36AF771D3F1A930017D49C /* NeonGroupable.swift in Sources */,
-				ED36AF731D3F1A930017D49C /* Neon.swift in Sources */,
 				ED36AF7B1D3F26940017D49C /* UIView+YQConstants.m in Sources */,
-				ED36AF751D3F1A930017D49C /* NeonAnchorable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
